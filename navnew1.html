@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Mengenal Struktur Web</title>
+    <link rel="stylesheet" href="tugas1.css"> 
+    
+</head>
+ <style>
+        /* Atur ukuran gambar */
+        img {
+            max-width: 300px;  /* gambar lebih kecil */
+            height: auto;
+            display: block;
+            margin: 20px auto; /* biar ke tengah */
+        }
+
+        /* Tombol kembali */
+      
+        .back-link:hover {
+            background-color: #45a049; /* warna lebih gelap saat hover */
+        }
+
+        /* Biar tombol di tengah */
+        .back-container {
+            text-align: center;
+        }
+    </style>
+<body>    
+    <div class="navbar_header">
+        <h1 class="navnew">Mengenal Struktur Web</h1>
+    </div>
+    <div class="isi_konten"></div>    
+        <div class="bagian-html">
+            <h2 class="Bagian1">HTML:</h2>
+            <p>HTML atau kepanjanganya HyperText Markup Language  adalah kerangka yang mendefinisikan struktur dan konten situs web Seperti tulang pada manusia.HTML berfungsi untuk menyusun struktur dan konten halaman, seperti teks, gambar, tautan, tabel, dan elemen lainnya</p>
+            <p>contoh: link rel="stylesheet" href="" untuk menaruh link dan img src="" alt="" untuk mengambil gambar (hint: gambar harus dimasukan dalam satu folder)</p>
+        </div>
+
+        <div class="bagian-css">
+            <h2 class="Bagian1">CSS:</h2>
+            <p>CSS atauCascading Style Sheet merupakan bagian pengatur visual atau design dari web. Ini mengatur warna, tata letak, font.seperti bagian baju dari web</p>
+            <p >h1 { color: blue; font-size: 24px; }</p>
+        </div>
+        
+        <div class="bagian-JavaScript">
+            <h2 class="bagian1">JavaScript:</h2>
+            <p>JavaScript (JS) menambahkan fungsionalitas dan interaktivitas pada halaman web. Dengan JavaScript, sebuah website tidak hanya menampilkan informasi secara statis, tetapi juga dapat merespons tindakan pengguna, seperti menampilkan pesan ketika tombol ditekan.</p>
+            <p >let pesan = document.getElementById("pesan").value;</p>
+        </div>
+        
+        <img src="trio.jpg" alt="tiga fitur utama">
+        <div class="bagian-Tailwind">
+            <h2 class="bagian1">Tailwind:</h2>
+            <p>Tailwind adalah framework utility-first untuk css. yang memberikan kelas siap pakai karena semua utilitas sudah disediakan. Hal ini membuat proses pengembangan web menjadi lebih cepat dan efisien. </p>
+            <p >button class="bg-blue-500 text-white px-4 py-2 rounded" </p>
+        </div>
+        <img src="tail.png" alt="tailwind logo">
+    </div>
+    <a href="tugas1.html" class="back-link">&lt; Kembali ke Beranda</a>
+</body>
+</html>
